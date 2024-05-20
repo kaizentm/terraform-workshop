@@ -12,7 +12,7 @@ You are tasked with creating infrastructure for a simple website that will run a
 
 This workshop will have you work with mainly the AzureRM Terraform provider, but will make sure of Hashicorp's Random Provider.
 
-## Set up
+## Setup
 
 This workshop utilizes includes a dev container for easily setting up dependencies needed.
 In order to use the Dev Container please ensure that VSCode and Docker desktop are installed.
