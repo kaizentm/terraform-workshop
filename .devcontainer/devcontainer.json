@@ -1,0 +1,40 @@
+// For format details, see https://aka.ms/devcontainer.json
+{
+    "name": "Terraform Workshop",
+    // Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
+    // Available base images: https://mcr.microsoft.com/v2/devcontainers/base/tags/list
+    "image": "mcr.microsoft.com/devcontainers/base:ubuntu22.04",
+    // Features to add to the dev container. More info: https://containers.dev/features
+    "features": {
+      "ghcr.io/devcontainers/features/git:1": {
+        "version": "latest"
+      },
+      "ghcr.io/meaningful-ooo/devcontainer-features/fish:1": {},  
+      "ghcr.io/devcontainers/features/azure-cli:1": {},    
+      "ghcr.io/devcontainers/features/terraform:1": {
+        "version": "1.8.3"
+      },
+    },
+    "postCreateCommand": {},
+    "remoteUser": "vscode",
+    "workspaceFolder": "/workspace",
+    "workspaceMount": "source=${localWorkspaceFolder},target=${containerWorkspaceFolder},type=bind,consistency=cached",
+    "forwardPorts": [],
+    "portsAttributes": {},
+    "customizations": {
+      "vscode": {
+        "settings": {
+          "terminal.integrated.defaultProfile.linux": "zsh",
+          "terminal.integrated.defaultProfile.osx": "zsh"
+        },
+        "extensions": [
+          "redhat.vscode-yaml",
+          "ms-vscode.azurecli",
+          "hashicorp.terraform",
+          "ms-azuretools.vscode-azureterraform",
+
+        ]
+      }
+    }
+  }
+  
