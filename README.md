@@ -21,10 +21,10 @@ You will need access to an Azure subscription where you can deploy resources to.
 
 ## Challenges
 
-Challenge 1 - Deploy Resource Group and Storage Account
-Challenge 2 - Configure Remote State
-Challenge 3 - Deploy Storage Account
-Challenge 4 - Add Tests
+- [Challenge 1 - Deploy Resource Group and Storage Account](./Challenge-1.md)
+- [Challenge 2 - Configure Remote State](./Challenge-2.md)
+- [Challenge 3 - Deploy Storage Account](./Challenge-3.md)
+- [Challenge 4 - Add Tests](./Challenge-4.md)
 
 ## Resources
 
